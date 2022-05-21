@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import { Friend, Status, Avatar, Name } from './FriendsItem.styled';
 import Card from '../../UI/Card';
@@ -17,14 +16,3 @@ const FriendsItem = ({ name, avatar, isOnline }) => {
 };
 
 export default FriendsItem;
-
-// FriendsList.propTypes = {
-//   title: PropTypes.string,
-//   stats: PropTypes.arrayOf(
-//     PropTypes.exact({
-//       id: PropTypes.string.isRequired,
-//       label: PropTypes.string.isRequired,
-//       percentage: PropTypes.number.isRequired,
-//     })
-//   ).isRequired,
-// };
